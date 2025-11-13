@@ -183,14 +183,16 @@ const Contact = () => {
                     onChange={handleChange}
                   >
                     <option value="">Select Service Type</option>
-                    <option value="lawn-care">Lawn Care</option>
-                    <option value="landscaping">Landscaping</option>
-                    <option value="trimming">Bush & Hedge Trimming</option>
-                    <option value="tree-trimming">Tree Trimming</option>
-                    <option value="house-washing">House Washing</option>
-                    <option value="land-clearing">Land Clearing</option>
-                    <option value="yard-maintenance">Yard Maintenance</option>
-                    <option value="other">Other</option>
+                    <option value="Lawn Care">Lawn Care</option>
+                    <option value="Landscaping">Landscaping</option>
+                    <option value="Bush & Hedge Trimming">Bush & Hedge Trimming</option>
+                    <option value="Tree Trimming">Tree Trimming</option>
+                    <option value="House Washing">House Washing</option>
+                    <option value="Land Clearing">Land Clearing</option>
+                    <option value="Yard Maintenance">Yard Maintenance</option>
+                    <option value="Concrete Services">Concrete Services</option>
+                    <option value="Stump Grinding">Stump Grinding</option>
+                    <option value="Other">Other</option>
                   </select>
                 </div>
                 

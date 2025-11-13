@@ -154,6 +154,20 @@ const Navigation = () => {
               >
                 Yard Maintenance
               </Link>
+              <Link 
+                to="/services/concrete" 
+                className="dropdown-link"
+                onClick={closeMenu}
+              >
+                Concrete Services
+              </Link>
+              <Link 
+                to="/services/stump-grinding" 
+                className="dropdown-link"
+                onClick={closeMenu}
+              >
+                Stump Grinding
+              </Link>
             </div>
           </div>
           
@@ -275,6 +289,20 @@ const Navigation = () => {
                 onClick={closeMenu}
               >
                 Yard Maintenance
+              </Link>
+              <Link 
+                to="/services/concrete" 
+                className="mobile-dropdown-link"
+                onClick={closeMenu}
+              >
+                Concrete Services
+              </Link>
+              <Link 
+                to="/services/stump-grinding" 
+                className="mobile-dropdown-link"
+                onClick={closeMenu}
+              >
+                Stump Grinding
               </Link>
             </div>
           </div>

@@ -115,7 +115,7 @@ const Trimming = () => {
             <h2>Ready to Shape Your Plants?</h2>
             <p>Contact us today to discuss your trimming needs and receive a detailed quote.</p>
             <div className="cta-buttons">
-              <Link to="/contact" className="btn btn-primary btn-large">Get Quote</Link>
+              <Link to="/contact" className="btn btn-primary btn-large">Get Free Quote</Link>
               <Link to="/services" className="btn btn-outline btn-large">View All Services</Link>
             </div>
           </div>

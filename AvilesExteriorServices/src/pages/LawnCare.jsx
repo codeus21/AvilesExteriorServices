@@ -173,7 +173,7 @@ const LawnCare = () => {
             <h2>Ready to Transform Your Lawn in Douglasville, Villa Rica, Hiram, or Lithia Springs?</h2>
             <p>Contact Aviles Exterior Services today to discuss your lawn care needs in Douglas County GA and receive a detailed, free quote.</p>
             <div className="cta-buttons">
-              <Link to="/contact" className="btn btn-primary btn-large">Get Free Quote - (470) 526-3353</Link>
+              <Link to="/contact" className="btn btn-primary btn-large">Get Free Quote</Link>
               <Link to="/services" className="btn btn-outline btn-large">View All Services</Link>
             </div>
           </div>

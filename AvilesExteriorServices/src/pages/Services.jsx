@@ -101,6 +101,18 @@ const Services = () => {
               <p>Comprehensive yard care including cleanup, mulching, seasonal preparation, and ongoing maintenance to keep your outdoor space pristine.</p>
               <Link to="/services/yard-maintenance" className="btn btn-outline">Learn More</Link>
             </div>
+            <div className="service-card">
+              <div className="service-icon">🛣️</div>
+              <h3>Concrete Services</h3>
+              <p>Professional concrete installation including pathways, driveways, patios, and decorative finishes to enhance your outdoor space.</p>
+              <Link to="/services/concrete" className="btn btn-outline">Learn More</Link>
+            </div>
+            <div className="service-card">
+              <div className="service-icon">🪓</div>
+              <h3>Stump Grinding</h3>
+              <p>Professional stump grinding and removal services to eliminate unsightly tree stumps and restore your yard's beauty and usability.</p>
+              <Link to="/services/stump-grinding" className="btn btn-outline">Learn More</Link>
+            </div>
           </div>
         </div>
       </section>
@@ -140,7 +152,7 @@ const Services = () => {
           <div className="cta-content">
             <h2>Ready to Transform Your Outdoor Space in Douglasville, Villa Rica, Hiram, or Lithia Springs?</h2>
             <p>Contact Aviles Exterior Services today for a free consultation and detailed quote for your exterior service needs throughout Douglas County, Georgia.</p>
-            <Link to="/contact" className="btn btn-primary btn-large">Get Free Quote - (470) 526-3353</Link>
+            <Link to="/contact" className="btn btn-primary btn-large">Get Free Quote</Link>
           </div>
         </div>
       </section>

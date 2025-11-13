@@ -114,7 +114,7 @@ const TreeTrimming = () => {
             <h2>Need Tree Trimming?</h2>
             <p>Get a safe, professional trim that protects your property and trees.</p>
             <div className="cta-buttons">
-              <Link to="/contact" className="btn btn-primary btn-large">Get Quote</Link>
+              <Link to="/contact" className="btn btn-primary btn-large">Get Free Quote</Link>
               <Link to="/services" className="btn btn-outline btn-large">View All Services</Link>
             </div>
           </div>

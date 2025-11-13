@@ -19,6 +19,8 @@ import HouseWashing from './pages/HouseWashing';
 import YardMaintenance from './pages/YardMaintenance';
 import TreeTrimming from './pages/TreeTrimming';
 import LandClearing from './pages/LandClearing';
+import Concrete from './pages/Concrete';
+import StumpGrinding from './pages/StumpGrinding';
 import './styles/variables.css';
 import './App.css';
 
@@ -43,6 +45,8 @@ function App() {
             <Route path="/services/land-clearing" element={<LandClearing />} />
             <Route path="/services/house-washing" element={<HouseWashing />} />
             <Route path="/services/yard-maintenance" element={<YardMaintenance />} />
+            <Route path="/services/concrete" element={<Concrete />} />
+            <Route path="/services/stump-grinding" element={<StumpGrinding />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

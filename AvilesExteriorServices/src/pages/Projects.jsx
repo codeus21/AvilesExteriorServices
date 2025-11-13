@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import CountUpStat from '../components/CountUpStat';
+import concreteImage from '../assets/Gallery/concretepath1.jpg';
+import concreteImage1 from '../assets/Gallery/concretepath2.jpg';
+import concreteImage2 from '../assets/Gallery/concretepath3.jpg';
 import './Projects.css';
 
 const Projects = () => {
@@ -64,14 +67,15 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: 'Residential Pressure Washing',
-      category: 'house-washing',
-      image: '🏠',
-      description: 'Professional house washing and exterior cleaning service for residential property.',
-      location: 'Residential Area',
-      year: '2022',
-      size: '2,500 sq ft',
-      gallery: ['🏠', '💧', '🧽', '🚿', '✨', '🏰']
+      title: 'Concrete Pathway Installation',
+      category: 'concrete',
+      image: concreteImage,
+      imageType: 'photo',
+      description: 'Beautiful concrete pathway and patio installation transforming outdoor spaces with durable, elegant concrete work.',
+      location: 'Residential Property',
+      year: '2025',
+      size: '400 sq ft',
+      gallery: [concreteImage, concreteImage1, concreteImage2]
     }
   ];
 
@@ -79,7 +83,8 @@ const Projects = () => {
     { id: 'all', name: 'All Projects' },
     { id: 'lawn-mowing', name: 'Lawn Mowing' },
     { id: 'bush-trimming', name: 'Bush Trimming' },
-    { id: 'house-washing', name: 'House Washing' }
+    { id: 'house-washing', name: 'House Washing' },
+    { id: 'concrete', name: 'Concrete' }
   ];
 
   const filteredProjects = selectedCategory === 'all' 
@@ -122,9 +127,13 @@ const Projects = () => {
             {filteredProjects.map(project => (
               <div key={project.id} className="project-card">
                 <div className="project-image">
-                  <div className="image-placeholder">
-                    <div className="project-icon">{project.image}</div>
-                  </div>
+                  {project.imageType === 'photo' ? (
+                    <img src={project.image} alt={project.title} className="project-photo" />
+                  ) : (
+                    <div className="image-placeholder">
+                      <div className="project-icon">{project.image}</div>
+                    </div>
+                  )}
                   <div className="project-category">{project.category}</div>
                   <button 
                     className="btn btn-outline project-overlay-btn"
@@ -189,11 +198,29 @@ const Projects = () => {
             </div>
             <div className="modal-content">
               <div className="project-gallery">
-                {selectedProject.gallery.map((image, index) => (
-                  <div key={index} className="gallery-item">
-                    <div className="gallery-image">{image}</div>
-                  </div>
-                ))}
+                {selectedProject.gallery.map((image, index) => {
+                  // Check if image is a photo: imported images are URLs (strings with file extensions or paths)
+                  // Emojis are typically short Unicode strings (1-4 characters)
+                  const isPhoto = typeof image === 'string' && (
+                    image.includes('.jpg') || 
+                    image.includes('.jpeg') || 
+                    image.includes('.png') || 
+                    image.includes('.gif') || 
+                    image.includes('.webp') || 
+                    image.includes('.svg') ||
+                    image.includes('/') ||
+                    image.length > 10
+                  );
+                  return (
+                    <div key={index} className="gallery-item">
+                      {isPhoto ? (
+                        <img src={image} alt={`${selectedProject.title} - ${index + 1}`} className="gallery-photo" />
+                      ) : (
+                        <div className="gallery-image">{image}</div>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
               <div className="project-info">
                 <p className="project-description">{selectedProject.description}</p>
@@ -205,10 +232,6 @@ const Projects = () => {
                   <div className="detail-item">
                     <span className="detail-label">Year:</span>
                     <span className="detail-value">{selectedProject.year}</span>
-                  </div>
-                  <div className="detail-item">
-                    <span className="detail-label">Size:</span>
-                    <span className="detail-value">{selectedProject.size}</span>
                   </div>
                 </div>
               </div>

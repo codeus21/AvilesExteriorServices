@@ -114,7 +114,7 @@ const LandClearing = () => {
             <h2>Ready to Clear Your Land?</h2>
             <p>Tell us about your lot or overgrowth—we'll provide a fast, fair quote.</p>
             <div className="cta-buttons">
-              <Link to="/contact" className="btn btn-primary btn-large">Get Quote</Link>
+              <Link to="/contact" className="btn btn-primary btn-large">Get Free Quote</Link>
               <Link to="/services" className="btn btn-outline btn-large">View All Services</Link>
             </div>
           </div>

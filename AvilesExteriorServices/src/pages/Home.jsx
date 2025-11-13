@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import ScrollAnimation from '../components/ScrollAnimation';
 import CountUpStat from '../components/CountUpStat';
 import SEO from '../components/SEO';
+import heroImage from '../assets/Gallery/concretepath1.jpg';
+import concreteImage from '../assets/Gallery/concretepath1.jpg';
 import './Home.css';
 
 const Home = () => {
@@ -66,10 +68,7 @@ const Home = () => {
           </div>
             <ScrollAnimation className="fade-in-right" delay={400}>
             <div className="hero-image">
-              <div className="hero-placeholder">
-                <div className="exterior-icon">🌿</div>
-                <p>Beautiful Landscaped Yard</p>
-              </div>
+              <img src={heroImage} alt="Beautiful concrete pathway and landscaping" className="hero-image-img" />
             </div>
           </ScrollAnimation>
         </div>
@@ -209,8 +208,30 @@ const Home = () => {
                 </div>
               </div>
             </ScrollAnimation>
+            <ScrollAnimation delay={500}>
+              <Link to="/services/concrete" className="project-showcase-card" style={{textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column'}}>
+                <div className="project-showcase-image project-showcase-image-with-photo">
+                  <img src={concreteImage} alt="Concrete pathway installation" className="project-showcase-img" />
+                </div>
+                <div className="project-showcase-content">
+                  <h3>Concrete Pathways</h3>
+                  <p>Beautiful concrete pathway installation transforming outdoor spaces</p>
+                </div>
+              </Link>
+            </ScrollAnimation>
+            <ScrollAnimation delay={600}>
+              <Link to="/services/stump-grinding" className="project-showcase-card" style={{textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column'}}>
+                <div className="project-showcase-image">
+                  <div className="project-icon-large">🪓</div>
+                </div>
+                <div className="project-showcase-content">
+                  <h3>Stump Grinding</h3>
+                  <p>Professional stump removal services for a clean, usable yard</p>
+                </div>
+              </Link>
+            </ScrollAnimation>
           </div>
-          <ScrollAnimation delay={500}>
+          <ScrollAnimation delay={700}>
             <div className="projects-cta-wrapper">
               <Link to="/projects" className="btn btn-primary btn-large">View All Projects</Link>
             </div>
