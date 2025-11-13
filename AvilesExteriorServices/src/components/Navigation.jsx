@@ -131,7 +131,7 @@ const Navigation = () => {
                 className="dropdown-link"
                 onClick={closeMenu}
               >
-                Tree Trimming
+                Tree Trimming and Removal
               </Link>
               <Link 
                 to="/services/house-washing" 
@@ -267,7 +267,7 @@ const Navigation = () => {
                 className="mobile-dropdown-link"
                 onClick={closeMenu}
               >
-                Tree Trimming
+                Tree Trimming and Removal
               </Link>
               <Link 
                 to="/services/house-washing" 

@@ -28,7 +28,7 @@ const Home = () => {
     "url": "https://avilesexteriorservices.com",
     "telephone": "+14705263353",
     "areaServed": ["Douglasville", "Villa Rica", "Hiram", "Lithia Springs"],
-    "serviceType": ["Lawn Care", "Landscaping", "House Washing", "Yard Maintenance", "Tree Trimming"]
+    "serviceType": ["Lawn Care", "Landscaping", "House Washing", "Yard Maintenance", "Tree Trimming and Removal"]
   };
 
   return (
@@ -114,6 +114,34 @@ const Home = () => {
                 <div className="service-icon">🔧</div>
                 <h3>Yard Maintenance</h3>
                 <p>Comprehensive yard care including cleanup, mulching, seasonal preparation, and ongoing maintenance. Reliable yard maintenance services in Douglas County Georgia.</p>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation delay={600}>
+              <div className="service-card">
+                <div className="service-icon">🌲</div>
+                <h3>Tree Trimming and Removal</h3>
+                <p>Professional tree services including branch trimming, pruning, and complete tree removal. We trim branches to maintain tree health and safely chop down entire trees when needed. Expert tree services in Douglasville and surrounding areas.</p>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation delay={700}>
+              <div className="service-card">
+                <div className="service-icon">🚜</div>
+                <h3>Land Clearing</h3>
+                <p>Brush and overgrowth removal, small tree removal, and debris haul-off to reclaim your property. Professional land clearing throughout Douglas County GA.</p>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation delay={800}>
+              <div className="service-card">
+                <div className="service-icon">🛣️</div>
+                <h3>Concrete Services</h3>
+                <p>Professional concrete installation including pathways, driveways, patios, and decorative finishes. Expert concrete work in Douglasville, Villa Rica, Hiram, and Lithia Springs.</p>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation delay={900}>
+              <div className="service-card">
+                <div className="service-icon">🪓</div>
+                <h3>Stump Grinding</h3>
+                <p>Professional stump grinding and removal services to eliminate unsightly tree stumps and restore your yard's beauty. Safe, efficient stump removal in Douglas County Georgia.</p>
               </div>
             </ScrollAnimation>
           </div>

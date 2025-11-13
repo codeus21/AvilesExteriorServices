@@ -40,7 +40,7 @@ const Footer = () => {
             <li><a href="/services/lawn-care" className="footer-link">Lawn Care</a></li>
             <li><a href="/services/landscaping" className="footer-link">Landscaping</a></li>
             <li><a href="/services/trimming" className="footer-link">Bush & Hedge Trimming</a></li>
-            <li><a href="/services/tree-trimming" className="footer-link">Tree Trimming</a></li>
+            <li><a href="/services/tree-trimming" className="footer-link">Tree Trimming and Removal</a></li>
             <li><a href="/services/house-washing" className="footer-link">House Washing</a></li>
             <li><a href="/services/land-clearing" className="footer-link">Land Clearing</a></li>
             <li><a href="/services/yard-maintenance" className="footer-link">Yard Maintenance</a></li>

@@ -79,8 +79,8 @@ const Services = () => {
             </div>
             <div className="service-card">
               <div className="service-icon">🌲</div>
-              <h3>Tree Trimming</h3>
-              <p>Safe, professional tree pruning to remove deadwood, shape canopies, and improve safety and health.</p>
+              <h3>Tree Trimming and Removal</h3>
+              <p>Professional tree services including branch trimming, pruning, and complete tree removal. We trim branches to maintain tree health and safely chop down entire trees when needed.</p>
               <Link to="/services/tree-trimming" className="btn btn-outline">Learn More</Link>
             </div>
             <div className="service-card">

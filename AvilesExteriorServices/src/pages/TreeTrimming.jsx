@@ -9,9 +9,9 @@ const TreeTrimming = () => {
       <section className="service-hero">
         <div className="container">
           <div className="service-hero-content">
-            <h1 className="service-hero-title">Tree Trimming & Pruning</h1>
+            <h1 className="service-hero-title">Tree Trimming and Removal Services</h1>
             <p className="service-hero-subtitle">
-              Safe, professional tree trimming to enhance tree health, appearance, and safety around your property.
+              Professional tree services including branch trimming, pruning, and complete tree removal. We trim branches to maintain tree health and safely chop down entire trees when needed.
             </p>
           </div>
         </div>
@@ -22,39 +22,38 @@ const TreeTrimming = () => {
         <div className="container">
           <div className="service-content">
             <div className="service-info">
-              <h2>What We Offer</h2>
+              <h2>Professional Tree Trimming and Removal</h2>
               <p>
-                Our certified team trims and prunes trees using industry best practices to promote healthy growth,
-                reduce hazards, and maintain a clean, polished look throughout your landscape.
+                Our professional team provides comprehensive tree services including branch trimming, pruning, and complete tree removal. We trim branches to maintain tree health, improve safety, and enhance your landscape appearance. When trees need to be removed entirely, we safely chop them down and handle all cleanup and disposal.
               </p>
 
               <div className="features-list">
                 <div className="feature-item">
                   <div className="feature-icon">✓</div>
                   <div className="feature-text">
-                    <h4>Deadwood Removal</h4>
-                    <p>Eliminating diseased or broken branches to improve safety and tree health.</p>
+                    <h4>Branch Trimming & Pruning</h4>
+                    <p>Professional trimming of branches to maintain tree health, improve safety, and enhance appearance.</p>
                   </div>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">✓</div>
                   <div className="feature-text">
-                    <h4>Canopy Thinning</h4>
-                    <p>Selective pruning to increase light penetration and reduce wind resistance.</p>
+                    <h4>Complete Tree Removal</h4>
+                    <p>Safe and efficient removal of entire trees when needed, including chopping down and full cleanup.</p>
                   </div>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">✓</div>
                   <div className="feature-text">
-                    <h4>Shaping & Clearance</h4>
-                    <p>Maintaining clearance from structures, driveways, and utility lines where appropriate.</p>
+                    <h4>Deadwood & Hazard Removal</h4>
+                    <p>Eliminating diseased, damaged, or dangerous branches and trees to protect your property.</p>
                   </div>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">✓</div>
                   <div className="feature-text">
-                    <h4>Storm Prep & Cleanup</h4>
-                    <p>Reducing risk before storms and cleaning up damaged limbs after severe weather.</p>
+                    <h4>Cleanup & Disposal</h4>
+                    <p>Complete cleanup and responsible disposal of all tree debris and wood after trimming or removal.</p>
                   </div>
                 </div>
               </div>
@@ -78,29 +77,29 @@ const TreeTrimming = () => {
             <div className="timeline-item">
               <div className="timeline-marker">1</div>
               <div className="timeline-content">
-                <h3>On-Site Assessment</h3>
-                <p>We evaluate tree species, structure, and risk to determine the best approach.</p>
+                <h3>Tree Assessment</h3>
+                <p>We evaluate your trees to determine if branch trimming or complete removal is needed.</p>
               </div>
             </div>
             <div className="timeline-item">
               <div className="timeline-marker">2</div>
               <div className="timeline-content">
-                <h3>Pruning Plan</h3>
-                <p>A tailored plan that prioritizes tree health, appearance, and safety.</p>
+                <h3>Service Plan</h3>
+                <p>We create a plan for trimming branches or safely chopping down entire trees as needed.</p>
               </div>
             </div>
             <div className="timeline-item">
               <div className="timeline-marker">3</div>
               <div className="timeline-content">
-                <h3>Professional Trimming</h3>
-                <p>Expert cuts using proper techniques and equipment to protect the tree.</p>
+                <h3>Professional Service</h3>
+                <p>Expert branch trimming or complete tree removal using proper techniques and equipment.</p>
               </div>
             </div>
             <div className="timeline-item">
               <div className="timeline-marker">4</div>
               <div className="timeline-content">
                 <h3>Cleanup & Disposal</h3>
-                <p>Thorough site cleanup with responsible debris hauling and disposal.</p>
+                <p>Complete cleanup and responsible disposal of all branches and tree debris.</p>
               </div>
             </div>
           </div>
@@ -111,8 +110,8 @@ const TreeTrimming = () => {
       <section className="service-cta">
         <div className="container">
           <div className="cta-content">
-            <h2>Need Tree Trimming?</h2>
-            <p>Get a safe, professional trim that protects your property and trees.</p>
+            <h2>Need Tree Trimming or Removal?</h2>
+            <p>Contact us for professional branch trimming or complete tree removal services that protect your property.</p>
             <div className="cta-buttons">
               <Link to="/contact" className="btn btn-primary btn-large">Get Free Quote</Link>
               <Link to="/services" className="btn btn-outline btn-large">View All Services</Link>

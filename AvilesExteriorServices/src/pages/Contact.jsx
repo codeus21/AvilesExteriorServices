@@ -186,7 +186,7 @@ const Contact = () => {
                     <option value="Lawn Care">Lawn Care</option>
                     <option value="Landscaping">Landscaping</option>
                     <option value="Bush & Hedge Trimming">Bush & Hedge Trimming</option>
-                    <option value="Tree Trimming">Tree Trimming</option>
+                    <option value="Tree Trimming and Removal">Tree Trimming and Removal</option>
                     <option value="House Washing">House Washing</option>
                     <option value="Land Clearing">Land Clearing</option>
                     <option value="Yard Maintenance">Yard Maintenance</option>
