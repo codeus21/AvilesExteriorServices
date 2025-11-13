@@ -293,7 +293,7 @@ const Home = () => {
             <div className="cta-content">
               <h2>Ready to Transform Your Outdoor Space in Douglasville, Villa Rica, Hiram, or Lithia Springs?</h2>
               <p>Contact Aviles Exterior Services today for a free consultation and quote on your exterior services needs. Serving Douglas County GA with excellence.</p>
-              <Link to="/contact" className="btn btn-primary btn-large">Get Free Quote - (470) 526-3353</Link>
+              <Link to="/contact" className="btn btn-primary btn-large">Get Free Quote</Link>
             </div>
           </ScrollAnimation>
         </div>
