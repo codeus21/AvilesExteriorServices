@@ -61,7 +61,15 @@ const Footer = () => {
             </div>
             <div className="contact-item">
               <span className="contact-icon">📞</span>
-              <a href="tel:4705263353" className="contact-text" style={{textDecoration: 'none', color: 'inherit'}}>(470) 526-3353</a>
+              <div className="contact-text">
+                <a href="tel:4705263353" style={{textDecoration: 'none', color: 'inherit'}}>
+                  Main: (470) 526-3353
+                </a>
+                <br />
+                <a href="tel:4702990055" style={{textDecoration: 'none', color: 'inherit'}}>
+                  24/7 Support: (470) 299-0055
+                </a>
+              </div>
             </div>
             <div className="contact-item">
               <span className="contact-icon">✉️</span>

@@ -105,7 +105,7 @@ const Contact = () => {
       "longitude": -84.7477
     },
     "url": "https://avilesexteriorservices.com",
-    "telephone": "+14705263353",
+    "telephone": ["+14705263353", "+14702990055"],
     "email": "avilesexteriorservices@gmail.com",
     "areaServed": ["Douglasville", "Villa Rica", "Hiram", "Lithia Springs"]
   };
@@ -216,7 +216,7 @@ const Contact = () => {
                 )}
                 {submitStatus === 'error' && (
                   <div className="form-message error">
-                    ✗ Failed to send message. Please try again or call us at (470) 526-3353.
+                    ✗ Failed to send message. Please try again or call us at (470) 526-3353 or our 24/7 line at (470) 299-0055.
                   </div>
                 )}
                 
@@ -251,7 +251,11 @@ const Contact = () => {
                   <div className="info-content">
                     <h3>Phone</h3>
                     <p>
+                      <strong>Main:</strong>{' '}
                       <a href="tel:4705263353" style={{color: 'inherit', textDecoration: 'none'}}>(470) 526-3353</a>
+                      <br />
+                      <strong>24/7 Support:</strong>{' '}
+                      <a href="tel:4702990055" style={{color: 'inherit', textDecoration: 'none'}}>(470) 299-0055</a>
                     </p>
                   </div>
                 </div>
